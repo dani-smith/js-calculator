@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/calculator.css" />
+
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <div class="row"><h2>Calculator</h2>
+        <input type="number" id="screen" value="">
+        </div>
+        <div class="row">
+            <button class="function" id="ac" onclick="allClear()">AC</button>
+            <button class="function" id="c" onclick="clearScreen()">C</button>
+            <button class="function" id="%" onclick="maths('%')">%</button>
+            <button class="function" id="divide" onclick="maths('/')">÷</button>
+        </div>
+        <div class="row">
+            <button class="num" value="7" onclick="clickNum(7)">7</button>
+            <button class="num" value="8" onclick="clickNum(8)">8</button>
+            <button class="num" value="9" onclick="clickNum(9)">9</button>
+            <button class="function" id="multiply" onclick="maths('*')">X</button>
+        </div>
+        <div class="row">
+            <button class="num" value="4" onclick="clickNum(4)">4</button>
+            <button class="num" value="5" onclick="clickNum(5)">5</button>
+            <button class="num" value+"6" onclick="clickNum(6)">6</button>
+            <button class="function" id="minus" onclick="maths('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="num" value="1" onclick="clickNum(1)">1</button>
+            <button class="num" value="2" onclick="clickNum(2)">2</button>
+            <button class="num" value="3" onclick="clickNum(3)">3</button>
+            <button class="tall" id="plus" onclick="maths('+')">+</button>
+        </div>
+        <div class="row">
+            <button class="num" value="0" onclick="clickNum(0)">0</button>
+            <button class="num" value="." onclick="clickNum('.')">.</button>
+            <button class="function" id="equal" onclick="equal()">=</button>
+        </div>
+    </div>
+    
+</body>
+</html> >
