@@ -1,5 +1,5 @@
 
-* {border: 1px solid rgb(138, 136, 136) !important }
+/** {border: 1px solid rgb(138, 136, 136) !important }*/
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -25,6 +25,7 @@
     margin: 0 auto;
     font-family: 'Courier New', Courier, monospace;
     padding-left: 28px;
+    margin-top: 20px;
 }
 
 .row {
@@ -44,6 +45,7 @@ h2 {
     border-radius: 9%;
     float: right;
     margin-top: 0.3%;
+    margin-right: 4px;
 }
 .row button {
     width: 40px;
@@ -63,6 +65,31 @@ input {
     height: 40px;
     max-width: 100%;
     font-size: 24px;
+    font-weight: bold;
+}
+
+.header {
+    width: 100%;
+    background-image: url(../images/background-banner-con.jpg);
+    background-size: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 20px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+
+}
+
+footer {
+    background-color: #6200ee;
+    color: aliceblue;
+    width: 100%;
+    height: 60px;
+    margin-top: 40px;
+    font-family: 'Lato', sans-serif;
+    align-self: center;
 }
 
 
