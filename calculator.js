@@ -6,7 +6,6 @@ var temp = '';
     
 }*/
 
-document.addEventListener(onkeypress, clickNum());
 
 function clickNum(i) { 
     checkForNewCalculation();
